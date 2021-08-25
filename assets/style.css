@@ -53,6 +53,10 @@ ol {
   right: 0;
   z-index: 1000;
 }
+
+.header--shadow {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
 .container {
   width: 100%;
   max-width: 1200px;
@@ -162,6 +166,8 @@ ol {
 .button:hover {
   background-color: #fa4a0c;
   border-color: #fa4a0c;
+  transform: translate(0px, -10%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 .content {
   margin-bottom: 180px;
